@@ -1,0 +1,169 @@
+/* First design ran into trouble, second design from JSFiddle of Lal Prakash */
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Aaron's note: If you want everything to center nicely, put it all into a container*/
+
+#container {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+#logo-container{
+	width: 50%;
+	margin: 0 auto;
+}
+#logo {
+  margin-top: 10px;	
+  width: 80%;
+}
+
+#topbar {
+  margin: 25px 40px 0 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  display: block;
+  padding: 0 0 0 18px;
+}
+
+#topbar ul li {
+  font: 12.5px Arial, sans-serif;
+}
+
+#topbar ul li:first-child {
+  margin-top: -10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+#bottom a:link,
+#bottom a:visited {
+  color: #666;
+}
+
+#searchbar input {
+  height: 40px;
+  width: 35em;
+  margin: auto;
+  padding-top: 0px;
+  border: 1px solid #d5d5d5;
+  display: block;
+}
+
+#search-options {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #eeeeee;
+  font: bold 13.5px/30px Arial, sans-serif!important;
+  color: #7a7a7a;
+  padding: 3px 10px 3px 10px;
+  margin: 20px 2px 10px 2px;
+  display: inline-block;  /* Note: Inline-block styling for both buttons keeps them sitting cheerfully next to each other, not occupying separate lines; */
+  border-radius: 2px;
+}
+
+.button:hover {
+  border: 1px solid #cccccc;
+  color: black;
+}
+
+#searchbar input:hover {
+  border: 1px solid #7e7e7e;
+}
+
+
+#bottombar {
+  background-color: #f2f2f2;
+  border-top: 2px solid #e4e4e4;
+  height: 40px;
+  position: relative;
+  margin-top: 215px;
+  font: 12.5px/40px Arial;
+}
+
+#bottombar ul {
+  margin-left: 27px margin-top: 5px;
+}
+
+#bottomleft {
+  float: left;
+}
+
+#bottomright {
+  margin-right: 27px;
+}
+
+
+
+/*
+
+Your attempt below:;
+
+
+
+.all {
+	width: 90%;
+	margin: auto;
+}
+
+.logo {
+	display: block;
+	width: 50%;
+	margin: auto;
+	margin-top: 7%;
+	padding-bottom: 10px;
+}
+.ads {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2%;
+}
+.searchbar {
+	width: 50%;
+	margin: auto;
+}
+textarea {
+	margin: auto;
+	width: 500px;
+	padding: 0px 0px 0px 0px;
+}
+.inputs {
+	display: inline-block;
+	width: 500px;
+	margin: auto;
+}
+input {
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	font-weight: bold;
+	background-color: #f0f0f5;
+}
+.search {
+
+}
+.lucky {
+
+} */
